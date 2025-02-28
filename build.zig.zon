@@ -3,9 +3,15 @@
     .version = "0.0.2",
     .dependencies = .{
         .md4c = .{
-            .url = "https://github.com/fjebaker/md4c-zig/archive/master.tar.gz",
-            .hash = "12209c45d16fc325333eea94af7deb1cef3657ce92978301a2c05bdb4d8333013138",
+            .url = "https://github.com/mity/md4c/archive/refs/tags/release-0.5.2.tar.gz",
+            .hash = "1220251028e2f8c9b08684c3a3fe1aa320751e48154ad57ebdf86857dbceeb25cbb5",
         },
     },
-    .paths = .{""},
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+        "README.md",
+    },
 }
