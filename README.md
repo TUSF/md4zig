@@ -63,7 +63,7 @@ This will then output something like:
 Use the Zig package manager
 
 ```bash
-zig fetch --save=md4zig https://github.com/fjebaker/md4zig/archive/master.tar.gz
+zig fetch --save git+https://github.com/TUSF/md4zig
 ```
 
 Then include the module in your `build.zig` for your target:
