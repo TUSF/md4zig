@@ -1,6 +1,7 @@
 .{
-    .name = "md4zig",
+    .name = .md4zig,
     .version = "0.0.2",
+    .fingerprint = 0x28dccacf69f534f3,
     .dependencies = .{
         .md4c = .{
             .url = "https://github.com/mity/md4c/archive/refs/tags/release-0.5.2.tar.gz",
